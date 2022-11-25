@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: rgb(77, 77, 235);
+        cursor: pointer;
+    }
+}
+
+.img {
+    margin-right: 20px;
+}

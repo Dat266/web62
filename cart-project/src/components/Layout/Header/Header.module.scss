@@ -1,0 +1,36 @@
+.d-flex {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.svg-search {
+    right: 4%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.svg-cart {
+    margin: 0 3rem 0 15rem;
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.cart-number {
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    width: 19px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.cart-number:hover {
+    background-color: rgb(233, 122, 122);
+}
